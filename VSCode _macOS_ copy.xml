@@ -1,11 +1,22 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="ActivateAIAssistantToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
 </keymap>
